@@ -1,0 +1,94 @@
+.navbar-container {
+    background-color: #a6adb4;
+    overflow: hidden;
+    /* position: fixed; */
+    bottom: 0;
+    width: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 6fr 4fr 4fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: 3fr 5fr 6fr 7fr;
+
+}
+
+.firstColumn {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+
+.secondColumn {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+
+.thirdColumn {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+
+.links-container a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 1px;
+    text-decoration: none;
+    font-size: auto;
+}
+
+.links-container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+#sendMail {
+   padding: 0; 
+   background-color: transparent;
+   align-items: center;
+   justify-items: center;
+
+}
+
+#sendInput {
+    background-color: transparent;
+    height: 50px;
+    width: auto;
+    border: #1c2730;
+    color: #ddd;
+    
+}
+
+#sendButton {
+    height: 50px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    border: none;
+    
+
+}
+#emailInfo {
+    color: #869199;
+    font-size: small;
+    padding-top: 0;
+}
+
+.socialLinksBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    width: 70%;
+
+
+}

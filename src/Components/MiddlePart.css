@@ -1,0 +1,26 @@
+.containerMiddle {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    width: 100%;
+}
+.trendingTopicsDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    justify-items: stretch;
+    grid-column-gap: 10px;
+}
+.TTopic {
+    display: grid;
+    grid-template-rows: 5fr 2fr 3fr 2fr;
+    justify-items: center;
+}
+.TTopicImg {
+    justify-content: flex-start;
+}
+.trendsTopicInfo {
+    color: rgb(172, 170, 169);
+}
+.TimeScripts {
+    color: rgb(172, 170, 169);
+
+}

@@ -1,0 +1,39 @@
+.MainPart {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+}
+.MainImage{
+    width: 100%;
+    height: 100%;
+}
+.information {
+    width:95%;
+
+}
+.topicData {
+    color : red;
+    font-size: auto;
+}
+.information {
+    padding: 2px;
+}
+.moreNewsDivs {
+    display: flex;
+    width: 100%;
+}
+.moreNewsDiv1 {
+    width: 100%;
+}
+.moreNewsDiv2 {
+    width: 100%;
+}
+.previous-round {
+    border: none;
+}
+.next-round {
+    border: none;
+}
+.TimeScripts {
+    color: rgb(172, 170, 169);
+}
