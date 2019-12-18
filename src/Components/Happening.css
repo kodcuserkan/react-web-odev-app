@@ -18,13 +18,15 @@
 }
 .happeningTitle {
     display: grid;
-    grid-template-columns: 10fr 1fr;
+    grid-template-columns: 2fr 1fr;
     width: 100%;
 }
 .moreNewsDiv2 {
-    justify-content: right;
-    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    width: 90%;
 }
+
 .previous-round-happen {
     border: none;
 }
